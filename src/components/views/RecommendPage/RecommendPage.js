@@ -85,7 +85,7 @@ function RecommendPage() {
         <div className="questionNumber"> Q.{currentQuestionIndex + 1}</div>
         <div className="questionState">
           <div className="NavIconContainer">
-            {[...Array(9)].map((_, index) => (
+            {[...Array(10)].map((_, index) => (
               <TbLeaf
                 key={index}
                 size={35}

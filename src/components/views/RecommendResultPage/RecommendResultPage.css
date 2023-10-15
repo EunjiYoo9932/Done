@@ -64,10 +64,14 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
-.recommendResultli {
-    margin: 8px 8px 8px 0px;
+.recommendResultli {    
+    margin: 8px 8px 0px 0px;
+    display: flex;
+    align-items: center;
 }
-
+.recommendResultli div{
+    margin-left: 5px;
+}
 .recommendDown{
     display: flex;
     width: 70%;
@@ -138,8 +142,10 @@
 }
 .modalPlants{
     display: flex;
-    align-items: flex-start;
+    width: 100%;
     margin-top: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .modalImg{
     width: 45%;
@@ -193,5 +199,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
 }

@@ -114,7 +114,7 @@ function CrawlingPage() {
                 </a>
                 <div className="entity-content">
                   <div className="entityStore">{entity.storeTitle}</div>
-                  <div>가격</div>
+                  {/* <div>가격</div> */}
                   <div>{entity.price}원</div>
                 </div>
               </div>
