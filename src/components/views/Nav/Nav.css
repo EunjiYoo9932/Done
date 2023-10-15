@@ -1,0 +1,47 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Nanum Gothic', sans-serif; */
+
+#nav{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic'
+}
+
+.nav-button{
+    border: 1px solid #dadada;
+    margin: 10px 17px 10px 17px;
+    border-radius: 50px;
+    width: 135px;
+    height: 40px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-button:hover{
+    background-color: #C9E4C5;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, .12);
+}
+
+#nav li {
+    list-style: none;
+}
+
+.link-style{
+    text-decoration: none;
+    color: black;
+}
+
+.link-style:hover{
+    color: white;
+}
+
+.NavIconContainer{
+    display: inline-block;
+    margin-right: 4px
+}

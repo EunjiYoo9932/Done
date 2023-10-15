@@ -1,0 +1,34 @@
+
+
+.entity-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.entity {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: solid rgba(0, 0, 0, .12);
+}
+
+.entity-content {
+    flex: 1;
+    padding: 10px;
+    align-content: center;
+}
+
+.entity h5 {
+    margin: 0;
+}
+
+.entity-image {
+    max-width: 100px; /* 이미지의 최대 너비 설정 */
+    margin-left: 20px; /* 이미지와 내용 사이 여백 설정 */
+    padding: 10px;
+}

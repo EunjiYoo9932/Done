@@ -1,0 +1,75 @@
+.recommendStartMain2 {
+    background-color: white;
+    margin: 20px;
+    padding: 50px 60px;
+    align-items: stretch;
+    width: 90%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.team-member {
+    border: 1px solid #d7d7d7 ;
+    /* background-color: #F0FDEE; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.memberPosition{
+    font-size: 15px;
+    color: #747474;
+    margin: 5px;
+}
+.team-member h2 {
+    margin-top: 0;
+    color: #1c1c1c;
+    margin: 5px;
+    font-weight: 700;
+}
+
+.memberPosition1 {
+    color: #212121;
+    margin: 7px;
+    font-size: 21px;
+}
+
+.team-member a {
+    color: #184914;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    
+}
+
+.recommendIconContainer2 {
+    margin: 4px 10px;
+    background-color: #C9E4C5;
+    border-radius: 50%; 
+    padding: 15px; 
+    display: inline-block; 
+}
+
+
+.introduceImg{
+    width: 70%;
+}
+
+.github{
+    margin: 10px 0 5px 0;
+    background-color: #e5e4e4;
+    padding: 5px;
+    border-radius: 5px;
+}
+

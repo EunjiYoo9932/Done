@@ -1,0 +1,197 @@
+.recommendResult {
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    font-family: 'Nanum Gothic';
+}
+
+
+
+.recommendResultHeader1{
+    margin: 30px 0 0 0;
+    font-size: 30px;
+}
+
+.recommendResultHeader{
+    font-size: 30px;
+    border-top: 2px solid #adadad;
+    padding: 26px 120px 5px 120px;
+}
+
+.soulMatePlants {
+    background-color: #276b21;
+    color: white;
+    padding: 5PX;
+    margin: 0 0 0 5PX;
+    border-radius: 6PX;
+
+}
+
+.resultTitle {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    height: 50%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendResultImg{
+    width: 40%;
+    
+    padding: 20px;
+}
+.recommendResultul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+    font-size: 18px;
+
+}
+
+.recommendResultul p {
+    font-size: 25px;
+}
+.mainPlantsName{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.recommendResultli {
+    margin: 8px 8px 8px 0px;
+}
+
+.recommendDown{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    
+    border:1px solid #184914;
+}
+.recommendDownWI{
+    border:1px solid #184914;
+
+}
+.recommendResultWi {
+    font-size: 24px;
+    color: #184914;
+    margin: 5px;
+}
+
+.recommendResultRanking {
+
+    margin: 4px;
+    font-size: 22px;
+}
+
+.recommendResultRanking:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.moreExplain{
+    color: #adadad;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.recommendResultButton {
+    background-color: white;
+    color: black;
+    margin: 30px;
+    padding: 13px;
+    border-style: none;
+    border-radius: 50px;
+    border: 1px solid #dadada;
+    width: 20%;
+    font-size: 20px;
+}
+
+.recommendResultButton:hover {
+    background-color: #C9E4C5;
+    border: none;
+    font-weight: bold;
+}
+
+.recommendResultModal {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    /* 내용과 모달 경계 간격 조절 */
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #e9e9e9;
+    border-radius: 5px;
+    justify-content: space-around;
+
+}
+.modalPlants{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.modalImg{
+    width: 45%;
+    padding: 0 20px 0 40px;
+}
+.modalCloseButton {
+    margin: 10px;
+    width: 30%;
+    background-color: #184914;
+    color: white;
+    border-radius: 15px;
+}
+
+.plantExplain {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.plantExplainName {
+    font-size: 21px;
+}
+
+.plantExplainImg {
+    margin: 6px 0;
+}
+
+.plantExplainTitle {
+    color: #C9E4C5;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.plantExplainList {
+    margin-bottom: 5px;
+}
+
+.searchButton{
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    background-color: #184914;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.searchButton:hover{
+    font-weight: bold;
+}
+.resultAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

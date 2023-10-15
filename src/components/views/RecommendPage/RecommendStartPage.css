@@ -1,0 +1,54 @@
+.recommendStart{
+    background-color: #f7f7f9;
+    padding: 60px;    
+    display: flex;
+    font-family: 'Nanum Gothic';
+    justify-content: center;
+}
+
+.recommendStartMain{
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+    border-radius: 15px;
+}
+
+.recommendRecommendImg{
+    width: 30%;
+}
+
+.recommendIconContainer {
+    margin: 40px 10px;
+    background-color: #C9E4C5; 
+    border-radius: 50%; 
+    padding: 15px;
+    display: inline-block;
+}
+
+.recommendExplain{
+    font-size: 22px;
+}
+
+.recommendExplain p{
+    margin: 5px;
+}
+.recommendStartMain button {
+    background-color: white;
+    margin: 40px;
+    padding: 13px;
+    border-style: none;
+    border-radius: 50px;
+    border: 1px solid #dadada;
+    width: 20%;
+    font-size: 20px;
+}
+
+.recommendStartMain button:hover{
+    background-color: #F0FDEE;
+    border: none;
+    font-weight: bold;
+}

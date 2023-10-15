@@ -1,0 +1,45 @@
+.header{
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e9e9e9;
+    font-family: 'Merriweather';
+}
+.header-button{
+    margin: 10px;
+
+}
+
+.header-button-login{
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
+
+.header-button-sign-in{
+    border: none;
+    background-color: white;
+}
+
+.header-button-logout{
+    margin:0 10px;
+    border: none;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    border-bottom:2px solid  #e9e9e9;
+    padding: 8px 12px;    
+    margin: 0;
+    font-size: 20px;
+}
+
+.headerGrupImg{
+    width: 70px;
+    margin-left: 10px;
+}

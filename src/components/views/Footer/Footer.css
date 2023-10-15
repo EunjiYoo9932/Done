@@ -1,0 +1,21 @@
+.footerExplain{
+    background-color: white;
+    padding: 10px 0;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerJoongbu{
+    color: white;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.footerJOONGBUImg{
+    width: 15%;
+}
