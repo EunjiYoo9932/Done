@@ -11,6 +11,7 @@ function CrawlingPage() {
   const [searchingResult, setSearchingResult] = useState(true);
   const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
   const URL = `${PROXY}/api/searchSubmit`;
+  
   function formatNumber(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
