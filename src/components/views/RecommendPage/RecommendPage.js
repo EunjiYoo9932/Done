@@ -19,7 +19,7 @@ function RecommendPage() {
     answerWater: 0,
   });
   const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-  const URL = `${PROXY}"/api/question`;
+  const URL = `${PROXY}api/question`;
 
   const Modal = () => {
     const navigateModal = () => {
