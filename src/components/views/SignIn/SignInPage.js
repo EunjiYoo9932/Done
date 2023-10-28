@@ -15,7 +15,10 @@ function SignInPage() {
   const [memberBirth, setMemberBirth] = useState(""); // 생일 추가
   const [memberNum, setMemberNum] = useState(""); // 휴대폰 추가
   const [memberData, setMemberData] = useState(null); // 유저 상태 추가
-
+  
+  const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+  const URL = `${PROXY}/PlantsPlanet/save`;
+  
   // const axiosData = async() => {
   //     const response = await axios.post("http://localhost:4000/userSignIn");
   //     console.log(response);
@@ -27,7 +30,7 @@ function SignInPage() {
   const onSubmit = async () => {
     try {
       const response = await axios.post(
-        "/PlantsPlanet/save",
+        URL,
         {
           memberEmail: memberEmail, // memberEmail 상태를 서버에 전달
           memberPassword: memberPassword, // memberPasswd 상태를 서버에 전달
@@ -40,6 +43,20 @@ function SignInPage() {
           },
         }
       );
+      // const response = await axios.post(
+      //   "/PlantsPlanet/save",
+      //   {
+      //     memberEmail: memberEmail, // memberEmail 상태를 서버에 전달
+      //     memberPassword: memberPassword, // memberPasswd 상태를 서버에 전달
+      //     memberBirth: memberBirth,
+      //     memberNum: memberNum,
+      //   },
+      //   {
+      //     headers: {
+      //       "Content-Type": "application/json",
+      //     },
+      //   }
+      // );
       setMemberData(response.data);
       console.log(response.data);
       //response.data가 success로 응답이 오면 if실행
