@@ -18,14 +18,6 @@ function SignInPage() {
   
   const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
   const URL = `${PROXY}/PlantsPlanet/save`;
-  
-  // const axiosData = async() => {
-  //     const response = await axios.post("http://localhost:4000/userSignIn");
-  //     console.log(response);
-  // };
-  // useEffect(()=> {
-  //     axiosData();
-  // },[]);
 
   const onSubmit = async () => {
     try {
