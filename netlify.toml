@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/proxy/*"
+  to = "https:/https://prismatic-donut-f39e99.netlify.app/:splat"
+  status = 200
+  force = true
