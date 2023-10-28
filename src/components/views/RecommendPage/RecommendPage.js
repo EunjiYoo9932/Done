@@ -18,6 +18,8 @@ function RecommendPage() {
     answerTemperature: 0,
     answerWater: 0,
   });
+  const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+  const URL = `${PROXY}"/api/question`;
 
   const Modal = () => {
     const navigateModal = () => {
@@ -66,7 +68,7 @@ function RecommendPage() {
     // 답변식물 초기화
     localStorage.removeItem("answerPlant");
     axios
-      .post("/api/question", answer)
+      .post(URL, answer)
       .then((response) => {
         // 답변 저장
         localStorage.setItem("answerPlant", JSON.stringify(answer));
