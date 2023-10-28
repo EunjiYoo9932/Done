@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/proxy/*"
-  to = "https:/https://prismatic-donut-f39e99.netlify.app/:splat"
+  to = "http://ec2-52-78-9-20.ap-northeast-2.compute.amazonaws.com:8083/:splat"
   status = 200
   force = true
