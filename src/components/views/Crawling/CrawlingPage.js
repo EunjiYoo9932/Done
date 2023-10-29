@@ -9,9 +9,9 @@ function CrawlingPage() {
   const [entities, setEntities] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [searchingResult, setSearchingResult] = useState(true);
-  // const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-  // const URL = `${PROXY}/api/searchSubmit`;
-
+  const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+  const URL = `${PROXY}/api/searchSubmit`;
+  
   function formatNumber(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
@@ -41,7 +41,7 @@ function CrawlingPage() {
     // localStorage.removeItem("searchResult");
     try {
       setEntities("");
-      const response = await axios.post("http://ec2-52-78-9-20.ap-northeast-2.compute.amazonaws.com:8083/api/searchSubmit", searchKeyword, {
+      const response = await axios.post(URL, searchKeyword, {
         headers: {
           "Content-Type": "application/json",
         },
